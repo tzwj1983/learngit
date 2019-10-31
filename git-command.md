@@ -26,3 +26,7 @@ HEAD指向的版本就是当前版本，因此，Git允许我们在版本的历�
 穿梭前，用git log可以查看提交历史，以便确定要回退到哪个版本。
 
 要重返未来，用git reflog查看命令历史，以便确定要回到未来的哪个版本。
+
+git diff filename:比较工作区和暂存区
+
+git diff HEAD -- filename:比较工作区和版本库的最新版本
