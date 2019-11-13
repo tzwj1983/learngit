@@ -1,3 +1,10 @@
+# 创建SSH Key
+- 查看在用户主目录下如果有.ssh目录且子目录有id_rsa和id_rsa.pub这两个文件。如果没有，打开Shell（Windows下打开Git Bash Here），创建SSH Key：
+```
+ssh-keygen -t rsa -C "youremail@example.com" 
+```
+具体操作时"youremail@example.com" 换成自己的邮箱地址。
+- 登陆GitHub，打开“Account settings”-“SSH Keys”-“Add SSH Key”，填上任意Title，在Key文本框里粘贴id_rsa.pub文件的内容。
 # 从远程库克隆
 在当前目录下创建远程仓库
 ```
