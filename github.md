@@ -29,3 +29,7 @@ git push -u origin master
 ```
 git push origin master
 ```
+拉取当前分支最新代码
+```
+git pull
+```
